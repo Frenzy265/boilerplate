@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frenzy265/boilerplate.git"
+  },
+  "author": "frenzy265",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frenzy265/boilerplate/issues"
+  },
+  "homepage": "https://github.com/Frenzy265/boilerplate#readme"
+}
