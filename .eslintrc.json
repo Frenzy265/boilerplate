@@ -12,6 +12,6 @@
     },
     "ecmaVersion": 12
   },
-  "plugins": ["react"],
+  "plugins": [],
   "rules": {}
 }
