@@ -5,6 +5,13 @@
     "es2021": true,
     "node": true
   },
+
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+
   "extends": ["eslint:recommended", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,7 +23,8 @@
   "rules": {
     "no-unused-vars": [
       "warn",
-      { "vars": "all", "args": "all", "ignoreRestSiblings": true }
-    ]
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }
+    ],
+    "import/no-anonymous-default-export": "off"
   }
 }
